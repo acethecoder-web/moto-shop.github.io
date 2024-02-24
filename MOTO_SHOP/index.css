@@ -1,0 +1,78 @@
+@font-face {
+    font-family: designer;
+    src: url(./Designer.otf);
+}
+
+#logo {
+width: 50px;
+border-radius: 80px;
+position: absolute;
+top: 5px;
+}
+
+body{
+background-color: white;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+#name {
+    position: absolute;
+    bottom: -13px;
+    left: 60px;
+    font-weight: bold;
+    font-family: designer;
+}
+
+#tagline {
+font-family: designer;
+font-size: 40px;
+position: absolute;
+top: 250px;
+left: 40px;
+filter: drop-shadow(3px 3px 3px white);
+}
+
+#l1 , #l2 , #l3 {
+
+transition-duration: 0.5s;
+
+}
+
+
+#l1:hover , #l2:hover , #l2:hover{
+
+background-color: aliceblue;
+color: black;
+
+}
+
+.carousel-item {
+
+    width: 50px;
+}
+
+.carousel-fixed-item {
+    height: 50px;
+    width: 50px;
+}    
+
+.page-footer {
+
+color: black;
+}
+
+#socmed {
+background-color: white;
+width: 70px;
+border-radius: 80px;
+gap:5px;
+
+}
+
+#socmedcont{
+position: absolute;
+
+}
